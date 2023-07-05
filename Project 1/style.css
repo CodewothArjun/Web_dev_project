@@ -1,0 +1,231 @@
+/*----- For all ------*/
+* {
+  padding: 0;
+  margin: 0;
+}
+/* -------------- */
+
+/* header section */
+/* ------------------------------------------------------------------------ */
+.header {
+  display: flex;
+  justify-content: space-around;
+}
+.logo {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo img {
+  width: 20%;
+  height: 10vh;
+  margin-right: 20px;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search input {
+  text-align: center;
+  border-radius: 5px;
+  padding: 6px 50px;
+  height: 3vh;
+}
+
+.search .fa-xl {
+  padding: 18px 2px;
+  margin-left: 3px;
+}
+.search .fa-xl:hover {
+  background-color: rgb(38, 218, 77);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.header > ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+.header > ul > li {
+  margin: 0 10px;
+}
+
+.header > ul > li > a {
+  text-decoration: none;
+  padding: 20px;
+}
+
+.header > ul > li:hover {
+  cursor: pointer;
+  color: blue;
+}
+
+/* ------------------------------------------------------------------------ */
+
+/* Navigation Section */
+/* ------------------------------------------------------------------------ */
+
+.navigation {
+  background-color: #e7e9eb;
+  display: flex;
+  max-width: 100%;
+}
+.navigation > nav {
+  display: flex;
+}
+.navigation > nav > ul {
+  padding: 0 40px;
+  display: flex;
+  list-style: none;
+  height: 7vh;
+  align-items: center;
+  justify-content: center;
+}
+.navigation > nav > ul > li > a {
+  padding: 20px;
+  text-decoration: none;
+  font-weight: 500;
+  color: black;
+}
+.navigation > nav > ul > li > a:hover {
+  color: blue;
+  font-weight: 500;
+}
+
+/* ------------------------------------------------------------------------ */
+
+/* Container */
+/* ------------------------------------------------------------------------ */
+
+.container {
+  display: flex;
+  width: 100%;
+  height: 80vh;
+}
+/* ------------------------------------------------------------------------ */
+
+/* left section */
+/* ------------------------------------------------------------------------ */
+
+.left {
+  width: 20%;
+  background-color: #e7e9eb;
+}
+.left .goods {
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+}
+.title_items {
+  margin-top: 8px;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(1, 1, 1);
+  color: white;
+}
+.goods h3 {
+  padding: 3px;
+}
+.goods h3:hover {
+  color: rgb(0, 60, 255);
+  cursor: pointer;
+}
+
+.icon {
+  margin-right: 15px;
+}
+/* ------------------------------------------------------------------------ */
+
+/* middle section */
+/* ------------------------------------------------------------------------ */
+
+.middle {
+  margin-top: 4px;
+  gap: 2px;
+  width: 60%;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.middle h4 {
+  text-align: center;
+}
+/* ------------------------------------------------------------------------ */
+
+/* right section */
+/* ------------------------------------------------------------------------ */
+
+.right {
+  width: 20%;
+}
+.right .img img {
+  margin-left: 80px;
+  width: 200px;
+  margin-top: 16px;
+  height: 35vh;
+}
+/* ------------------------------------------------------------------------ */
+
+/* footer section */
+/* ------------------------------------------------------------------------ */
+.footer {
+  height: 60vh;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+.footer-top .content {
+  background-color: rgb(39, 34, 34);
+  color: white;
+  padding: 8px 15px;
+  font-size: 18px;
+  border-radius: 5px;
+}
+.footer-top .content:hover {
+  color: rgb(63, 236, 255);
+  cursor: pointer;
+}
+.footer-middle {
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  height: 50vh;
+}
+.footer-middle .div {
+  padding: 10px;
+}
+.footer-middle .div p:hover {
+  color: blue;
+  cursor: pointer;
+}
+.footer-bottom {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.footer-bottom p {
+  margin: 10px;
+}
+.footer_logo {
+  width: 20%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.footer_logo img {
+  width: 20%;
+  height: 10vh;
+  margin-right: 20px;
+}
+
+/* ------------------------------------------------------------------------ */
